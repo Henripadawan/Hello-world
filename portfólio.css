@@ -1,0 +1,206 @@
+h1,
+h2,
+h3 body p {
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 64px;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.profissao {
+  font-size: 24px;
+}
+
+.t60 {
+  color: rgb(0, 0, 0, 0.6);
+}
+
+body {
+  background-color: #e5e5e5;
+  margin: 0px;
+}
+
+header {
+  background-color: white;
+  padding: 32px 64px;
+  display: flex;
+}
+
+.dados {
+  display: inline-block;
+  margin-bottom: -50px;
+  margin-left: -40px;
+}
+
+.foto {
+  width: 180px;
+  height: 180px;
+  border: solid#ffc700;
+  border-radius: 50%;
+  margin-bottom: -120px;
+  margin-right: 50px;
+}
+
+main {
+  padding: 60px 60px;
+  display: flex;
+}
+
+.coluna-menor {
+  margin-top: 4px;
+  width: 288px;
+}
+
+.coluna-menor img {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.coluna-menor li {
+  margin-top: 32px;
+  display: flex;
+}
+
+.conteudo {
+  display: inline-block;
+}
+
+.linha {
+  width: 80px;
+  border-top: solid 2px;
+  margin-top: 17px;
+}
+
+.experiencias .linha {
+  border-color: #4000ff;
+}
+
+.formaçao .linha {
+  border-color: #ffc700;
+}
+
+.formaçao {
+  margin-top: 24px;
+}
+
+.coluna-maior {
+  margin-left: 24px;
+}
+
+.coluna-maior h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+}
+
+.habilidade {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 12px;
+  width: 288px;
+}
+
+.habilidade h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.habilidade p {
+  font-size: 20px;
+}
+
+.progresso {
+  width: 300px;
+  display: flex;
+}
+
+.barra {
+  width: 20%;
+  margin-top: 8px;
+  height: 4px;
+  background-color: #4000ff;
+}
+
+.incompleto {
+  opacity: 0.2;
+}
+
+.habilidade first-child {
+  margin-top: 0px;
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projeto {
+  width: 392px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 12px;
+}
+
+.projetos {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.projeto h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.projeto p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.projeto a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #4000ff;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 24px;
+}
+
+footer {
+  background-color: #14004d;
+  color: white;
+  padding: 57.6px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
